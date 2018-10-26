@@ -1,0 +1,22 @@
+if (!pavyko) cout << "Fail" << i << endl;
+					if ((Field[x - 1][y + i] != TUSCIA && x != 0)) cout << "1" << endl;
+					if (Field[x - 1][y + 1 + i] != TUSCIA && y + i != 9 && x != 0 && y != 9) cout << "2" << endl;
+					if ((Field[x][y + 1 + i] != TUSCIA && y + i != 9 && y != 9)) cout << "3" << endl;
+					if ((Field[x + 1][y + 1 + i] != TUSCIA && y + i != 9 && x != 9 && y != 9)) cout << "4" << endl;
+					if ((Field[x + 1][y + i] != TUSCIA && x != 9)) cout << "5" << endl;
+					if ((Field[x + 1][y - 1 + i] != TUSCIA && x != 9 && y != 0)) cout << "6" << endl;
+					if ((Field[x][y - 1 + i] != TUSCIA && y != 0)) cout << "7" << endl;
+					if ((Field[x - 1][y - 1 + i] != TUSCIA && x != 0 && y != 0)) cout << "8" << endl;
+
+
+
+
+cout << "Fail" <<i << endl;
+					if ((Field[x - 1 + i][y + 1] != TUSCIA && x != 0)) cout << "1" << endl;
+					if ((Field[x - 1 + i][y + 1] != TUSCIA && x != 0 && y != 0)) cout << "2" << endl;
+					if ((Field[x + i][y] != TUSCIA && y != 9)) cout << "3" << endl;
+					if ((Field[x + 1 + i][y + 1] != TUSCIA && x + i != 9 && y != 9)) cout << "4" << endl;
+					if ((Field[x + 1 + i][y] != TUSCIA && x + i != 9)) cout << "5" << endl;
+					if ((Field[x + 1 + i][y - 1] != TUSCIA && x + i != 9 && y != 0)) cout << "6" << endl;
+					if ((Field[x + i][y - 1] != TUSCIA && y != 0)) cout << "7" << endl;
+					if ((Field[x - 1 + i][y - 1 + i] != TUSCIA && x != 0 && y != 0)) cout << "8" << endl;
